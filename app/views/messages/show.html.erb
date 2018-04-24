@@ -4,10 +4,10 @@
     <p class="message-posted-by"><%= time_ago_in_words(@message.created_at) %> ago</p>
     <p class="message-desc"><%= @message.description %></p>
 
-    <h3 class="comment-section-header">Коментарии:</h3>
+    <h3 class="comment-section-header">Комментарии:</h3>
     <p><%= render @message.comments %></p>
 
-    <h3 class="reply-to-msg">Коментровать:</h3>
+    <h3 class="reply-to-msg">Написать:</h3>
     <%= render 'comments/form' %>
 
     <div class="links btn-group">
