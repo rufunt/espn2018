@@ -21,11 +21,11 @@
 /* General styles */
 
 body {
-	background: -webkit-linear-gradient(40deg, #FF8C00 10%, #FF8C00 100%);
-  background:    -moz-linear-gradient(40deg, #FF8C00 10%, #FF8C00 100%);
-  background:     -ms-linear-gradient(40deg, #FF8C00 10%, #FF8C00 100%);
-  background:      -o-linear-gradient(40deg, #FF8C00 10%, #FF8C00 100%);
-  background:         linear-gradient(40deg, #FF8C00 10%, #FF8C00 100%);
+	background: -webkit-linear-gradient(40deg, black 10%, black 100%);
+  background:    -moz-linear-gradient(40deg, black 10%, black 100%);
+  background:     -ms-linear-gradient(40deg, black 10%, black 100%);
+  background:      -o-linear-gradient(40deg, black 10%, black 100%);
+  background:         linear-gradient(40deg, black 10%, black 100%);
   font-family: 'Lato', sans-serif;
 }
 
@@ -78,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	.navbar-brand {
-		color: #ec6767;
+		color: black;
 		letter-spacing: 1.1px;
 		font-size: 1.9em;
 	}
@@ -100,13 +100,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .message {
 	box-sizing: border-box;
-	background-color: #808080;
+	background-color: white;
 	border-radius: 5px;
 	margin-bottom: 25px;
 	margin-right: 10px;
 	margin-left: 10px;
 	padding: 1.4em 1.4em;
-	color: #FFF;
+	color: black;
 	height: 100px;
 	border-bottom: 4px solid #ec6767;
 
@@ -115,7 +115,7 @@ h1, h2, h3, h4, h5, h6 {
 		font-family: 'Asap', sans-serif;
 		font-weight: 300;
 		margin-top: 0;
-		text-color: #FFF;
+		text-color: black;
 		margin-bottom: 25px;
 	}
 
@@ -133,11 +133,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .message-show {
 	box-sizing: border-box;
-	background-color: #808080;
+	background-color: white;
 	border-radius: 5px;
 	padding: 2.0em 1.5em;
 	border-bottom: 4px solid #ec6767;
-	color: #fff;
+	color: black;
 	font-family: 'Asap', sans-serif;
 	font-weight: 300;
 
@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
 	.message-posted-by {
-		color: #eee;
+		color: black;
 		font-size: 0.9em;
 	}
 
@@ -175,14 +175,14 @@ h1, h2, h3, h4, h5, h6 {
 	}	
 
 	.comment-posted-by {
-		color: #eee;
+		color: black;
 		font-size: 0.8em;
 	}
 
 	.links {
 		margin-top: 15px;
 		a {
-			color: #FFF;
+			color: black;
 			margin-right: 15px;
 		}
 	}
